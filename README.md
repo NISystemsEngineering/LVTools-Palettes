@@ -1,6 +1,9 @@
 #LVTools Palettes
 ================
 #####This project serves as a repository of tools which we have found useful in our day-to-day work.
+================
+This repository and any materials provided by NI therein are provided AS IS. NI DISCLAIMS ANY AND ALL LIABILITIES FOR AND MAKES NO WARRANTIES, EITHER EXPRESS OR IMPLIED, INCLUDING WITHOUT LIMITATION ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR  PARTICULAR PURPOSE, OR NON-INFRINGEMENT OF INTELLECTUAL PROPERTY. NI shall have no liability for any direct, indirect, incidental, punitive, special, or consequential damages for your use of the repository or any materials contained therein. 
+================
 
 ##Goals:
 Develop a large set of palettes which provide common tools that can be shared across our organization and with our partners and customers.
@@ -12,7 +15,7 @@ Our organization does a reasonable job of promoting reuse of reference designs a
 At present, the project is in an exploratory stage. The concept is that individual contributors to this project should create a fork and add their own tools to the project in a way that is as organized as possible. Based on those forks and contributions, project maintainers will attempt to organize the tools in a logical fashion and  then pull changes from other contributors into the main line of the project. These will then be packaged and made available for distribution.
  
 ##Repository Overview:
-Identify the organization of any branches. In general, branches should follow the pattern outlined in the next section. This should include indications of which version each branch is currently on.
+The repository has a single main trunk. Contributors should create forks and then generate a branch for every contribution. This makes it easier to merge specific contributions into the main codebase.
  
 ##Test Process:
 Because this is a toolset, we don't expect most users to have tests built and ready to go. However, tests are encouraged whenever possible, as this allows later contributors to be sure that they are not modifying the expected functionality of the API. 
